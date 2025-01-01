@@ -1,7 +1,7 @@
 const Homepage = () => {
   return (
     <div>
-      Pro Store
+      Prostore
     </div>
   );
 }
