@@ -1596,6 +1596,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bcrypt-ts-edge@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "bcrypt-ts-edge@npm:3.0.1"
+  checksum: 10c0/e6e6b3c4f98a15a777485f6a4c07358350aac66b30e4138e281278cb645ffd980cd1756e43e4ba69198154b0c56cd4cf04e5c323ca628c9b7007da0d598c0dfc
+  languageName: node
+  linkType: hard
+
 "binary-extensions@npm:^2.0.0":
   version: 2.3.0
   resolution: "binary-extensions@npm:2.3.0"
@@ -4155,6 +4162,7 @@ __metadata:
     "@types/react": "npm:^19"
     "@types/react-dom": "npm:^19"
     "@types/ws": "npm:^8.5.14"
+    bcrypt-ts-edge: "npm:^3.0.1"
     bufferutil: "npm:^4.0.9"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
