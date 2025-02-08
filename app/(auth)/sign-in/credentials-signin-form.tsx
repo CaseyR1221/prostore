@@ -30,7 +30,7 @@ const CredentialsSignInForm = () => {
 
   return (
     <form action={action}>
-        <input type="hidden" name="callbackUrl" value={callbackUrl} />
+      <input type="hidden" name="callbackUrl" value={callbackUrl} />
       <div className="space-y-6">
         <div>
           <Label htmlFor="email">Email</Label>
@@ -61,7 +61,7 @@ const CredentialsSignInForm = () => {
         {data && !data.success && (
           <div className="text-center text-destructive">{data.message}</div>
         )}
-        
+
         <div className="text-sm text-center text-muted-foreground">
           Don&apos;t have an account?{' '}
           <Link target="_self" className="link" href="/sign-up">
